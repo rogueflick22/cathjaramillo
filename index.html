@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cath Jaramillo | Portfolio</title>
+
+  <!-- Favicon (logo in browser tab) -->
+  <link rel="icon" type="image/png" href="images/CATH_LOGO.jpg">
+
+  <link rel="stylesheet" href="css/mainStyle.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="js/mainScript.js" defer></script>
+</head>
+<body>
+  <!-- Navbar -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">
+        <img src="images/CATH_LOGO.jpg" alt="Maria Jaramillo Logo">
+      </div>
+      <ul class="nav-links">
+        <li><a href="#bio">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-text">
+      <h1>Cath Jaramillo</h1>
+      <h2>Architect & BIM Specialist</h2>
+      <p>
+        With over 13 years of international experience across Singapore and the Philippines, I specialize in Revit-based BIM workflows, multidisciplinary VDC coordination, and advanced technical detailing for large-scale, complex projects. 
+        My portfolio spans luxury high-rise residential towers, private homes, and interior design projects, as well as major commercial and infrastructure developments—where I’ve consistently delivered data-driven, clash-free models that improve buildability, minimize rework, and foster seamless collaboration among stakeholders.
+<br>
+<br>I bring strong expertise in BIM Coordination (VDC), Revit, Navisworks, Enscape, and AutoCAD, with a proven track record of optimizing design-to-construction workflows.
+<br>
+<br>Now based in Canada, I’m expanding my skillset into IT, web development, and data/business analytics. I built and coded this portfolio website entirely by hand—merging my 
+architectural precision with a growing passion for technology. I’m eager to explore collaborations at the intersection of architecture, data, and digital solutions—bridging design, 
+technology, and innovation to create smarter, more connected workflows.
+
+      </p>
+      <a href="#projects" class="cta-btn">View My Projects</a>
+    </div>
+  </section>
+
+  <!-- Projects Grid -->
+  <section id="projects" class="projects">
+    <h2>Selected Projects</h2>
+    <div class="project-grid">
+      <!-- 9 Project Cards -->
+      <div class="project-card" data-project="1"><img src="images/PARKADE/Image17.png" alt=""><h3>One Parkade</h3></div>
+      <div class="project-card" data-project="2"><img src="images/WHITLEY/Image3.png" alt=""><h3>Whitley Residence</h3></div>
+      <div class="project-card" data-project="3"><img src="images/CBM/Image1.png" alt=""><h3>CBM Residence</h3></div>
+      <div class="project-card" data-project="4"><img src="images/E1/9.png" alt=""><h3>La Casa</h3></div>
+      <div class="project-card" data-project="5"><img src="images/TPAEC/Image10.png" alt=""><h3>Parc Central</h3></div>
+      <div class="project-card" data-project="6"><img src="images/BUS SHELTER_GREYTEAL/BST_3.png" alt=""><h3>Bus Stop</h3></div>
+      <div class="project-card" data-project="7"><img src="images/POB10/POB 6.png" alt=""><h3>Pedestrian Overhead Bridge @ Caldecott</h3></div>
+      <div class="project-card" data-project="8"><img src="images/POB15/POB 3.png" alt=""><h3>Pedestrian Overhead Bridge @ Novena</h3></div>
+      <div class="project-card" data-project="9"><img src="images/LB15/VIEW 4.png" alt=""><h3>Link Bridge</h3></div>
+      <div class="project-card" data-project="10"><img src="images/flynn/f1.png" alt=""><h3>Flynn Park</h3></div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="contact">
+  <h2>Let’s Connect</h2>
+  <form action="https://formspree.io/f/mnnbqaed" method="POST">
+    <input type="text" name="name" placeholder="Your Name" required>
+    <input type="email" name="email" placeholder="Your Email" required>
+    <textarea name="message" placeholder="Message" required></textarea>
+    <button type="submit">Send</button>
+  </form>
+</section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Cath Jaramillo. All Rights Reserved.</p>
+  </footer>
+
+  <!-- Project Modals (One for Each Project) -->
+  <div id="project-modal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2 id="modal-title">Project Title</h2>
+      <p id="modal-description">Project overview goes here...</p>
+      <div id="modal-gallery" class="media-gallery">
+        <!-- Images & videos inserted by JS -->
+      </div>
+    </div>
+  </div>
+</body>
+</html>
