@@ -46,14 +46,15 @@ $(document).ready(function () {
      },
     5: { 
       title: "Parc Central",
-      description: "An 11-block high-rise residential development, where I implemented integrated BIM workflows for design coordination and construction documentation",
+      description: "An 11-block high-rise residential development, where I implemented integrated BIM workflows for design coordination and construction documentation.",
       media: [
         "images/TPAEC/Image10.png",
         "images/TPAEC/Image4.png",
         "images/TPAEC/Image8.png",
         "images/TPAEC/Image12.png",
-        "images/TPAEC/Image7.png",
-        "images/TPAEC/Image5.png"
+        "images/TPAEC/Image5.png",
+        "images/TPAEC/VIEW 5.png",
+        "images/TPAEC/VIEW 7.png"
       ]
      },
     6: { 
@@ -89,7 +90,7 @@ $(document).ready(function () {
       ]
     },
     8: {
-      title: "Pedestrian Overhead bridge @ Novena",
+      title: "Pedestrian Overhead Bridge @ Novena",
       description: "BIM modeling and coordination for an underground tunnel project, including provisions for temporary bridges to ensure construction continuity.",
       media: [
         "images/POB15/POB 3.png",
@@ -114,7 +115,7 @@ $(document).ready(function () {
     },
     10: {
       title: "Flynn Park",
-      description: "BIM modeling and multi-disciplinary coordination for a nine-block luxury residential high-rise, covering architectural, plumbing, electrical, sanitary, and mechanical systems through VDC integration",
+      description: "BIM modeling and multi-disciplinary coordination for a nine-block luxury residential high-rise, covering architectural, plumbing, electrical, sanitary, and mechanical systems through VDC integration.",
       media: [
         "images/flynn/f1.png",
         "images/flynn/f2.png",
